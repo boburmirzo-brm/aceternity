@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header
-      className={`w-full left-0 right-0 z-50 ${
+      className={`w-full left-0 right-0 z-50 px-4 ${
         pathname === "/"
           ? "absolute"
           : "sticky bg-white border-b border-black/[0.1]"

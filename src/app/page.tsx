@@ -1,10 +1,11 @@
 import Hero from "@/components/Hero"
+import TimelineDemo from "@/components/TimeLine";
 
 export default function Home() {
   return (
     <div>
       <Hero/>
-      <h2>Next</h2>
+      <TimelineDemo/>
     </div>
   );
 }
