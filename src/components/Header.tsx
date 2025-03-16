@@ -17,9 +17,10 @@ const Header = () => {
       }  `}
     >
       <div className={`h-16 flex items-center max-w-6xl mx-auto gap-5`}>
-        <h2>Header</h2>
+        <h2 className="text-xl font-bold">Acetenity</h2>
         <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
+        <Link href="/products">Products</Link>
+        <Link href="/service">Service</Link>
       </div>
     </header>
   );

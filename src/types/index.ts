@@ -4,3 +4,4 @@ export interface IProduct {
     name:string;
     images: string[]
 }
+

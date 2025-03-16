@@ -12,6 +12,18 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'images.unsplash.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'assets.aceternity.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'aceternity.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'jet-back.bank.uz',
+      },
     ],
   },
 };
